@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Consulta de CEP</h2>
+        <form>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input type="text" class="form-control" id="cep" placeholder="Digite o CEP">
+            </div>
+            <div class="form-group">
+                <label for="rua">Rua:</label>
+                <input type="text" class="form-control" id="rua" readonly>
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro:</label>
+                <input type="text" class="form-control" id="bairro" readonly>
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <input type="text" class="form-control" id="cidade" readonly>
+            </div>
+            <div class="form-group">
+                <label for="uf">Estado:</label>
+                <input type="text" class="form-control" id="uf" readonly>
+            </div>
+            <div class="form-group">
+                <label for="ibge">Código IBGE:</label>
+                <input type="text" class="form-control" id="ibge" readonly>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="consultaCEP()">Buscar</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
