@@ -1,5 +1,10 @@
 ## Consulta de CEP com API 
 Esse projeto consiste em uma página web que permite aos usuários realizar consultas de CEP para obter informações de endereço. 
+
+<div>
+    <img src="./img/page.png" alt="tela">
+</div>
+
 ## Estrutura HTML:
 A página possui um formulário com um campo de entrada para o CEP e campos de texto para exibir informações de endereço como rua, bairro, cidade, estado e código IBGE.
 Há um botão "Buscar" que quando clicado chama a função consultaCEP(). 
@@ -13,12 +18,6 @@ consultaCEP(): Esta função é chamada quando o botão "Buscar" é clicado. Ela
 preencheFormulario(conteudo): Esta função é chamada quando a resposta da consulta é recebida. Verifica se não há erro na resposta. Se não houver erro, preenche os campos de rua, bairro, cidade, estado e código IBGE com os dados recebidos. Se houver erro, exibe um alerta informando ao usuário que o CEP não foi encontrado.
 
 limpaFormulario(): Esta função é responsável por limpar os campos de rua, bairro, cidade, estado e código IBGE do formulário.
-<br><br>
-
-<div>
-    <img src="page.png" alt="">
-</div>
-<br><br>
 
 <div style="display: inline_block">
   <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
